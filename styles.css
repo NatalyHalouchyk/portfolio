@@ -1,0 +1,104 @@
+/* General */
+
+.container-fluid{
+  padding: 6% 6%;
+}
+
+.section-heading{
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+@media(max-width: 1200px){
+  .pr-container{
+    margin-top: 1rem;
+  }
+}
+
+/* Navigation Bar */
+
+nav{
+  font-size: 1.125rem;
+}
+
+nav li:hover{
+  text-decoration: underline;
+}
+
+
+/* Title section */
+
+#title{
+  position: relative;
+  height: 72vh;
+  background-color: #E8EAE6;
+  background-image: url(images/main.jpg);
+  background-size: cover;
+  background-position: left 50% top 50%;
+  background-repeat: no-repeat;
+}
+
+#title .container-fluid{
+  padding-top: 1.5%;
+  padding-bottom: 0;
+}
+
+.name{
+position: absolute;
+top: 70%;
+}
+
+.name p{
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 658px){
+  .name{
+    color: rgba(255, 255, 255, 0.75);
+    top: 0.5rem;
+  }
+}
+
+/* Buttons */
+
+.footer-button{
+  margin: 0 1rem 1rem;
+}
+
+.btn-light{
+  background-color: #E8EAE6;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+/* Projects' section */
+
+#projects{
+  background-color: #E8EAE6;
+}
+
+
+/* Skills section */
+
+#skills{
+  background-color: #CDD0CB;
+}
+.skills-container{
+  text-align: center;
+}
+
+
+/* Contact section */
+
+#contacts{
+  background-color: #797A7E;
+}
+
+#contacts a{
+  display:block;
+  line-height: 2.5rem;
+  text-decoration: none;
+}
