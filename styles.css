@@ -53,10 +53,9 @@ top: 70%;
   font-size: 18px;
 }
 
-@media (max-width: 658px){
+@media (max-width: 768px){
   .name{
     color: rgba(255, 255, 255, 0.75);
-    top: 0.5rem;
   }
 }
 
