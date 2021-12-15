@@ -42,6 +42,7 @@ nav li:hover{
     height: 62vh;
     background-image: url(images/mobile2.jpg);
   }
+
 }
 
 #title .container-fluid{
@@ -57,7 +58,9 @@ top: 70%;
 @media (max-width:992px){
   .name{
     top: 75%;
-    /* color: rgba(255, 255, 255, 0.75); */
+  }
+  .name h1{
+    font-size: 2.5rem;
   }
 }
 
