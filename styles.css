@@ -37,9 +37,9 @@ nav li:hover{
   background-repeat: no-repeat;
 }
 
-@media screen (max-width: 992px){
+@media screen (max-device-width: 768px){
   #title{
-    height: 60vh;
+    background-image: url(images/mobile1.jpg);
   }
 }
 
