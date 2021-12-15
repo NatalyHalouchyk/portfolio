@@ -39,6 +39,7 @@ nav li:hover{
 
 @media (max-width: 992px){
   #title{
+    height: 62vh;
     background-image: url(images/mobile2.jpg);
   }
 }
