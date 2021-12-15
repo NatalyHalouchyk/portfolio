@@ -8,7 +8,11 @@
   margin-bottom: 2rem;
   font-size: 2.2rem;
 }
-
+@media (max-width: 768px){
+  .section-heading{
+    margin-top: 2rem;
+  }
+}
 .pr-container{
   margin-top: 1rem;
 }
