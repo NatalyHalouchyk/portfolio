@@ -88,11 +88,17 @@ top: 70%;
   opacity: 0.8;
 }
 
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
 /* Projects' section */
 
 #projects{
   background-color: #E8EAE6;
 }
+
 
 
 /* Skills section */

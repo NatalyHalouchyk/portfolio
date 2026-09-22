@@ -95,6 +95,60 @@
   </section>
 
 
+  <!-- Experience -->
+
+  <section id="experience">
+    <div class="container-fluid">
+      <h2 class="section-heading">Experience</h2>
+
+      <h4><b>Financial Risk Pilot AG</b></h4> 
+      <p>Software developer</p>
+      
+      <p>*Added this section to my portfolio mostly to show what exactly I develop on my work, because the project not presented in public.</p>
+      <p>We are developing a desktop application meant to help with financial analysis to Swiss banks, housing associations etc.</p>
+      <p>Stack in use: Python, Flask, SQLAlchemy, Pandas, NumPy - for backend; Javascript, Vue.js2 (Vuex, Vue router, Vuetify) - for frontend. And as a cherry of the top of all of it - Electron (honestly - not good in it, but regularly fix bugs occuring due to the version update, so almost a master :D)</p>
+      <p>As our team is small, I am used to a large range od responsabilities (what I honestly do like - it helps me to own the code and be kind of "independent" while developing): </p>
+      <ul>        
+        <li>debugging existing code;</li>
+        <li>developing and documenting new functionalities;</li>
+        <li>writing unit tests (Jest), E2E tests (Playwright) and setting them up with GitHub Actions;</li>
+        <li>testing of the software; </li>
+        <li>and releasing new versions of it;</li>
+        <li>reviewing team members' code;</li>
+        <li>managing dependencies and third-party packages,keeping them up-to-date.</li>
+        
+      </ul>
+      <div id="carousel" class="carousel slide" data-bs-interval="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/dp_cockpit.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/dp_interest_calculations.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/dp_positions.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/dp_financing.png" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="images/dp_rates.png" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+  </section>
+
+
   <!-- Projects -->
 
   <section id="projects">
@@ -104,42 +158,40 @@
       <div class="row">
         <div class="col-lg-6 pr-container">
           <div class="card h-100">
-            <img src="images/tindog_screenshot.png" class="card-top-img img-fluid mx-auto" alt="">
+            <img src="images/planets_facts_screenshot.jpg" class="card-img-top mx-auto" alt="">
+            <div class="card-body">
+              <h3>Planets fact app</h3>
+              <p>This 8-page website I built using Vue.js 2, Vue-Router and Vuex. It is dedicated to all the planets in our solar system and will introduce you to some interesting facts and features.</p>
+            </div>
+            <div class="footer-button">
+              <a class="btn btn-dark" href="https://planets-fact-app.web.app/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
+              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/planets-fact-app" target="_blank"><i class="fab fa-github"></i> See Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 pr-container">
+          <div class="card h-100">
+            <img src="images/find_a_coach_screenshot.jpg" class="card-img-top mx-auto" alt="">
+            <div class="card-body">
+              <h3>Find a coach app</h3>
+              <p>An app written with Vue.js 3, Vue-Router and Vuex, which would help the user to find a coach using filters and get in touch with them. On the other hand, users can register as coaches, receive requests from interested students, and respond to them.</p>
+            </div>
+            <div class="footer-button">
+              <a class="btn btn-dark" href="https://find-a-coach-a96fe.web.app/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
+              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/find-a-coach-app" target="_blank"><i class="fab fa-github"></i> See Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 pr-container">
+          <div class="card h-100">
+            <img src="images/tindog_screenshot.png" class="card-img-top mx-auto" alt="">
             <div class="card-body">
               <h3>TinDog</h3>
-              <p>A website I built using mostly the Bootstrap library.</p>
+              <p>Recently, while updating my portfolio website, I considered to remove this project. It is a very simple website built with the Bootstrap library. However, it was one of my first projects, and it’s what helped me land my first job in the IT field, so I’ll leave it up as a reminder of where I started.</p>
             </div>
             <div class="footer-button">
               <a class="btn btn-dark" href="https://natalyhalouchyk.github.io/tindog-site-/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
               <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/tindog-site-/" target="_blank"><i class="fab fa-github"></i> See Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 pr-container">
-          <div class="card h-100">
-            <img src="images/signup_page_screenshot.jpg" class="card-top-img img-fluid mx-auto" alt="">
-            <div class="card-body">
-              <h3>Signup page</h3>
-              <p>A signup page that allows to collect submitted users' data sending them through API to the Mailchimp server. The page is built using Node.js with Express.</p>
-            </div>
-            <div class="footer-button">
-              <a class="btn btn-dark" href="https://still-ocean-62548.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
-              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/signup-page" target="_blank"><i class="fab fa-github"></i> See Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 pr-container">
-          <div class="card h-100">
-            <img src="images/drum_kit_screenshot.jpg" class="card-top-img img-fluid mx-auto" alt="">
-            <div class="card-body">
-              <h3>Drum Kit</h3>
-              <p>A website that lets you turn into a drummer for a while just using your mouse or keyboard. Built with vanilla JavaScript</p>
-            </div>
-            <div class="footer-button">
-              <a class="btn btn-dark" href="https://natalyhalouchyk.github.io/Drum-Kit-Site/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
-              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/Drum-Kit-Site" target="_blank"><i class="fab fa-github"></i> See Code</a>
             </div>
           </div>
         </div>
@@ -158,7 +210,7 @@
       <div class="row">
         <div class="col-xl-4 col-lg-6 pr-container">
           <div class="card h-100">
-            <img src="images/simon_game_screenshot.jpg" class="card-top-img img-fluid mx-auto" alt="">
+            <img src="images/simon_game_screenshot.jpg" class="card-img-top mx-auto" alt="">
             <div class="card-body">
               <h3>Simon Game</h3>
               <p>A famous game of memory skill that makes you repeat the random sequences of flashing lights by pressing buttons in the correct order. Followed by sounds. Built using jQuery.</p>
@@ -168,49 +220,7 @@
               <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/simon-game#simon-game" target="_blank"><i class="fab fa-github"></i> See Code</a>
             </div>
           </div>
-        </div>
-
-        <div class="col-xl-4 col-lg-6 pr-container">
-          <div class="card h-100">
-            <img src="images/faq_accordion_card.jpg" class="card-top-img img-fluid mx-auto" alt="">
-            <div class="card-body">
-              <h3>FAQ accordion card</h3>
-              <p>Just a FAQ accordion card. You press on the question and the proper answer is displayed. Built using vanilla JS.</p>
-            </div>
-            <div class="footer-button">
-              <a class="btn btn-dark" href="https://natalyhalouchyk.github.io/faq-accordion-card/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
-              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/faq-accordion-card" target="_blank"><i class="fab fa-github"></i> See Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-4 col-lg-6 pr-container">
-          <div class="card h-100">
-            <img src="images/intro_component_screenshot.jpg" class="card-top-img img-fluid mx-auto" alt="">
-            <div class="card-body">
-              <h3>Intro component with signup form</h3>
-              <p>A common singup form with client-side validation. It's built using Flexbox for the layout, vanilla JavaScript to validate whether fields are empty or not, plus Regex to validate an entered email.</p>
-            </div>
-            <div class="footer-button">
-              <a class="btn btn-dark" href="https://natalyhalouchyk.github.io/sign-up-form-with-client-side-validation/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
-              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/sign-up-form-with-client-side-validation" target="_blank"><i class="fab fa-github"></i> See Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xl-4 col-lg-6 pr-container">
-          <div class="card h-100">
-            <img src="images/dicee_game_screenshot.jpg" class="card-top-img img-fluid mx-auto" alt="">
-            <div class="card-body">
-              <h3>Dicee game</h3>
-              <p>A singup form with client-side validation. It's built using Flexbox for the layout, vanilla JavaScript to validate whether fields are empty or not, plus Regex to validate an entered email.</p>
-            </div>
-            <div class="footer-button">
-              <a class="btn btn-dark" href="https://natalyhalouchyk.github.io/dicee-game/" target="_blank"><i class="fas fa-external-link-alt"></i> See Live</a>
-              <a class="btn btn-light" href="https://github.com/NatalyHalouchyk/dicee-game" target="_blank"><i class="fab fa-github"></i> See Code</a>
-            </div>
-          </div>
-        </div>
+        </div>        
       </div>
     </div>
   </section>
