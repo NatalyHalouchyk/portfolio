@@ -88,10 +88,6 @@ top: 70%;
   opacity: 0.8;
 }
 
-.carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
-    filter: invert(100%);
-}
 
 /* Skills section */
 #skills {
@@ -101,6 +97,21 @@ top: 70%;
   text-align: center;
 }
 
+/* Experience section */
+.carousel-centered {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.carousel-control-prev {
+  filter: invert(100%);
+  left: -15%;
+}
+
+.carousel-control-next {
+  filter: invert(100%);
+  right: -15%;
+}
 
 /* Projects' section */
 #projects{
@@ -108,7 +119,6 @@ top: 70%;
 }
 
 /* Contact section */
-
 #contacts{
   background-color: #797A7E;
 }
