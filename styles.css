@@ -93,23 +93,19 @@ top: 70%;
     filter: invert(100%);
 }
 
-/* Projects' section */
-
-#projects{
-  background-color: #E8EAE6;
-}
-
-
-
 /* Skills section */
-
-#skills{
-  background-color: #CDD0CB;
+#skills {
+   background-color: #c9c9cb;
 }
-.skills-container{
+.skills-container { 
   text-align: center;
 }
 
+
+/* Projects' section */
+#projects{
+  background-color: #c9c9cb;
+}
 
 /* Contact section */
 
