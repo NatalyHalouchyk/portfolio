@@ -1,4 +1,7 @@
 /* General */
+body {
+  font-size: 1.25rem;
+}
 
 .container-fluid{
   padding: 6% 6%;
@@ -21,9 +24,9 @@
 
 /* Navigation Bar */
 
-nav{
+/* nav{
   font-size: 1.125rem;
-}
+} */
 
 nav li:hover{
   text-decoration: underline;
@@ -71,7 +74,6 @@ top: 70%;
 
 .name p{
   font-weight: 500;
-  font-size: 1.125rem;
 }
 
 
@@ -93,9 +95,6 @@ top: 70%;
 /* Skills section */
 #skills {
    background-color: #c9c9cb;
-}
-.skills-container { 
-  text-align: center;
 }
 
 /* Experience section */
